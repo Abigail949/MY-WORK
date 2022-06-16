@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: white;
+    text-align: center;
+}
+
+h1{
+    text-align: justify;
+    padding-left: 40%;
+}
+
+h2{
+    text-align: left;
+}
+
+h3{
+    color: beige;
+}
+img{
+    border-radius: 50%;
+}
+
+hr{
+    border: dotted;
+    color: black;
+    border-bottom: none;
+    width: 6%;
+    margin: 60px auto;
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+a:hover{
+    color: brown;
+}
+
+.My-food{
+text-align: center;
+}
+
+.Form{
+text-align: left;
+}
+
+table{
+margin: 0%;   
+}
+
+.First-container{
+height: 150px;
+background-color: rgb(97, 15, 15);
+padding-top: 20px;
+
+}
+
+.FOOD-DESCRIPTION{
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    color: beige;
+}
+
+.image-foodie{
+    width: 15%;
+    float: left;
+    position: relative;
+    left: 7%;
+
+}
+
+.Food-roll{
+    width: 50%;
+    margin: 100px auto 100px auto;
+   
+}
+
+.Food-two{
+    padding-top: 10%;
+    text-align: left;
+}
+
+.Food-three{
+    padding-top: 10%;
+    text-align: left;
+}
+
+
+.Abacha-image{
+    width: 20%;
+    float: right;
+    margin-right: 30px;
+}
+
+.Rice-image{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Third-container{
+    background-color: rgb(8, 21, 37);
+    height: 100px;
+    padding-top: 30px;
+}
+
+.contact-description{
+    color: beige;
+}
+
+.Fourth-container{
+    height:25%;
+    background-color: black;
+    padding-top: 5px;
+
+}
+
+.Social-media{
+    margin: 10px 20px ;
+}
+
+.My-contact{
+    text-align: left;
+    height: 30%;
+    color: #ffffff;
+    background-color: rgb(97, 15, 15);
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.My-table{
+    margin-top: auto;
+}
+
+
+.My-form{
+    text-align: left;
+    background-color:rgb(8, 21, 37);
+    height: 40%;
+    color: wheat;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.btn {
+    background: #1ff8ff;
+    background-image: -webkit-linear-gradient(top, #1ff8ff, #b8cedb);
+    background-image: -moz-linear-gradient(top, #1ff8ff, #b8cedb);
+    background-image: -ms-linear-gradient(top, #1ff8ff, #b8cedb);
+    background-image: -o-linear-gradient(top, #1ff8ff, #b8cedb);
+    background-image: linear-gradient(to bottom, #1ff8ff, #b8cedb);
+    -webkit-border-radius: 37;
+    -moz-border-radius: 37;
+    border-radius: 50px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ca1913;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+  @media (max-width: 900px) {
+  
+    .Abacha-Description{
+        clear:right;
+        text-align: center;
+        padding-top: 10%;
+    }
+  
+    .Rice-Description{
+        clear: left;
+        text-align: center;
+        padding-top: 10%;
+        
+    }
+
+    .Abacha-image{
+        width: 60%;
+    }
+
+    .Rice-image {
+        width: 60%;
+        position: relative;
+        left: 30%;
+    }
+
+    .First-container{
+        height: 50%;
+        padding-top:0px;
+    }
+
+    .Second-containe{
+        text-align: center;
+    }
+
+    .image-foodie{
+        position: relative;
+        left: 40%;
+     }
+
+    .Chicken-image{
+        width: 60%;
+    }
+
+    .My-fod{
+        padding-top: 10px;
+        text-align: justify;
+    }
+
+    .FOOD-DESCRIPTION{
+        text-align: center;
+        padding-left: 0%;
+    }
+    }
+
+    @media (max-width: 750px) {
+    .My-fod{
+        padding-left: 30%;
+    }
+
+    .First-container{
+        padding-top:0px;
+    }
+    
+}
